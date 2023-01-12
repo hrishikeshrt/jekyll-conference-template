@@ -17,12 +17,11 @@ gem "jekyll", "4.3.1"
 
 # If you have any plugins, put them here!
 #group :jekyll_plugins do
-#    gem 'jekyll-admin'
+#    gem "jekyll-admin"
 #end
 
-gem 'tzinfo-data'
-gem 'tzinfo'
-
 group :jekyll_plugins do
-    gem "jekyll-last-modified-at"
+  gem "tzinfo-data"
+  gem "tzinfo"
+  gem "jekyll-last-modified-at"
 end

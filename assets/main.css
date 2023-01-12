@@ -71,7 +71,7 @@ body {
 }
 
 .committee {
-    padding: 10px;
+    padding: 8px;
     border-top: 0.05rem solid #e5e5e5;
 }
 
@@ -101,7 +101,6 @@ body {
     padding-top: 5px;
     padding-bottom: 10px;
 }
-
 
 .list-group-item {
     font-size: 95%;
@@ -137,7 +136,7 @@ footer {
 }
 
 .nav {
-    font-size: 80%;
+    font-size: 85%;
 }
 
 .navbar-dark .navbar-nav>li>a:hover {

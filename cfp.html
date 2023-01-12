@@ -3,10 +3,9 @@ layout: page
 slide_id: 2
 ---
 
-
-
-    <div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-3 mb-xs-2 mb-sm-2">
-        <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6  conference-text">
+<div class="row mt-2">
+    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6">
+        <div class="conference-text">
             <p class="lead">Call For Papers</p>
             <p>{{site.data.conference.description}}.</p>
 
@@ -23,30 +22,32 @@ slide_id: 2
                 To prepare your submission, please use the latex source files listed on the website,
                 and follow the instructions provided there.
             </p>
-
-            {% include card-important-dates.html %}
-
-            {% include contact-us.html %}
-
         </div>
-        <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 conference-text">
-            {% if site.data.conference.topics %}
-            <p>
-                The areas of interest include, but are not limited to:
-            </p>
-                <ul>
-                {% for area in site.data.conference.topics %}
-                    <li><b>{{area.category}}</b></li>
-                    {% if area.topics %}
-                    <ul>
-                    {% for topic in area.topics %}
-                        <li>{{topic}}</li>
-                    {% endfor %}
-                    </ul>
-                    {% endif %}
-                {% endfor %}
-                </ul>
-            {% endif %}
 
-            </div>
+        {% include card-important-dates.html %}
+
+        <div class="conference-text">
+            {% include contact-us.html %}
+        </div>
     </div>
+    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 conference-text">
+        {% if site.data.conference.topics %}
+        <p>
+            The areas of interest include, but are not limited to:
+        </p>
+        <ul>
+            {% for area in site.data.conference.topics %}
+            <li><b>{{area.category}}</b></li>
+            {% if area.topics %}
+            <ul>
+                {% for topic in area.topics %}
+                <li>{{topic}}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+    </div>
+</div>

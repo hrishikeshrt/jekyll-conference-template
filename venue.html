@@ -5,43 +5,43 @@ slide_id: 5
 
 <!--<div class="alert alert-warning text-center">TBA</div>-->
 
+<div class="row mt-xs-0 mt-sm-0 my-2">
+    <div class="col text-muted">
 
+        <p>
+            The {{site.data.conference.full_title}} is scheduled on
+            {{site.data.conference.date}} and will be held at
+            {{site.data.conference.location}},
+            {{site.data.conference.country}}
+        </p>
 
-<div class="container">
-    <div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-3 mb-xs-2 mb-sm-2">
-        <div class="col text-muted">
+        <h6 class="text-info">Conference Location</h6>
 
+        <p>
+            {{site.data.venue.address}}
+        </p>
 
-            <p>The {{site.data.conference.full_title}} is scheduled for {{site.data.conference.date}} and will be held at {{site.data.conference.location}}, {{site.data.conference.country}}</p>
+        <h6 class="text-info">Accommodations</h6>
 
-            <div class="text-info">Conference Location:</div>
+        <p>
+            {{site.data.venue.accommodation.instructions}}
+        </p>
 
-            <p>
-                {{site.data.venue.address}}
-            </p>
+        {% if site.data.venue.accommodation.hotels %}
+        <ul>
+            {% for hotel in site.data.venue.accommodation.hotels %}
+            <li><b>{{hotel.name}}</b> ({{hotel.address}})</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
 
-            <div class="text-info">Accommodations:</div>
+        <h6 class="text-info">Directions</h6>
 
-            <p>
-                {{site.data.venue.accommodation.instructions}}
-            </p>
+        <p>
+            {{site.data.venue.directions}}
+        </p>
 
-            {% if site.data.venue.accommodation.hotels %}
-            <ul>
-                {% for hotel in site.data.venue.accommodation.hotels %}
-                <li><b>{{hotel.name}}</b> ({{hotel.address}})</li>
-                {% endfor %}
-            </ul>
-            {% endif %}
+        <img class="img-fluid" src="{{site.data.venue.direction}}" alt="direction">
 
-            <div class="text-info">Directions:</div>
-
-            <p>
-                {{site.data.venue.directions}}
-            </p>
-
-            <img class="img-fluid" src="{{site.data.venue.direction}}" alt="direction">
-
-        </div>
     </div>
 </div>

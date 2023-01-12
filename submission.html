@@ -5,7 +5,7 @@ slide_id: 3
 
 
 <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-justify conference-text">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2 text-justify conference-text">
 
 
         <h6 class="text-info">Submission Instructions</h6>
@@ -16,9 +16,9 @@ slide_id: 3
         </p>
 
         <p>
-            Only electronic submissions in {{site.data.submission.file_format}}
+            Only electronic submissions in {{site.data.submission.file_formats | join:" or "}}
             will be accepted. Submitted papers must be written in
-            {{site.data.submission.language}}, must be no longer than
+            {{site.data.submission.languages | join:" or "}}, must be no longer than
             <b>{{site.data.submission.pagelimit}} pages</b> in
             {{site.data.submission.fontsize}}-point font and must render without
             error using standard PDF viewing tools.
