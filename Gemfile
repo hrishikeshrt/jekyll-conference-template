@@ -23,3 +23,6 @@ gem "jekyll", "4.3.1"
 gem 'tzinfo-data'
 gem 'tzinfo'
 
+group :jekyll_plugins do
+    gem "jekyll-last-modified-at"
+end

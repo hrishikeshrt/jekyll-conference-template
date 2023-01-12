@@ -33,3 +33,5 @@ exclude:
 timezone: India/Kolkata
 google_analytics: ""
 
+plugins:
+  - jekyll-last-modified-at
