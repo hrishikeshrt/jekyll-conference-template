@@ -1,0 +1,21 @@
+portal: EasyChair Submission Portal
+url: "https://easychair.org/conferences/?conf=7thiscls"
+
+file_format: PDF
+language: English
+
+review_mode: 1
+# 0: double blind
+# 1: single blind
+
+pagelimit: 20
+fontsize: 10
+
+instructions: ""
+
+template:
+  name: ACM Article Template
+  url: http://www.acm.org/sigs/publications/proceedings-templates
+  description: standard ACM Template
+
+publisher: Association for Computational Linguistics

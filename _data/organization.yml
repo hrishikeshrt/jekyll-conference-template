@@ -1,0 +1,61 @@
+program_chair:
+  - name: Arnab Bhattacharya
+    org: IIT Kanpur
+    homepage: https://cse.iitk.ac.in/users/arnabb/
+  - name: Martin Gluckman
+    org: Sanskrit Research Institute
+    homepage: ""
+steering_committees:
+  - name: Amba Kulkarni
+    org: University of Hyderabad
+    homepage: ""
+  - name: Gérard Huet
+    org: INRIA Paris
+    homepage: ""
+  - name: Olivier Hellwig
+    org: University of Zurich
+    homepage: ""
+  - name: Pawan Goyal
+    org: IIT Kharagpur
+    homepage: ""
+technical_program_committees:
+  - name: Stefan Baums
+    org: University of Munich
+    homepage: ""
+  - name: Laxmidhar Behera
+    org: IIT Kanpur
+    homepage: ""
+  - name: Brendan Gillon
+    org: McGill University
+    homepage: ""
+  - name: Malhar Kulkarni
+    org: IIT Bombay
+    homepage: ""
+  - name: Pavan Kumar Satuluri
+    org: Chinmaya Vishwavidyapeeth, Veliyanad
+    homepage: ""
+  - name: Girish Nath Jha
+    org: JNU, Delhi
+    homepage: ""
+  - name: Andrew Ollett
+    org: Harvard University, Cambridge, MA
+    homepage: ""
+  - name: Dhaval Patel
+    org: Ahmedabad
+    homepage: ""
+  - name: Ganesh Ramakrishnan
+    org: IIT Bombay
+    homepage: ""
+  - name: Peter Scharf
+    org: IIIT Hyderabad
+    homepage: ""
+  - name: Srinivasa Varakhedi
+    org: KKSU, Ramtek
+    homepage: ""
+  - name: K Varalakshmi
+    org: Osmania University, Hyderabad
+    homepage: ""
+webmaster:
+  - name: Hrishikesh Terdalkar
+    org: IIT Kanpur
+    homepage: "https://hrishikeshrt.github.io"

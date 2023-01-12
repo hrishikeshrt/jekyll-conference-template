@@ -1,38 +1,45 @@
 full_title: 7th International Sanskrit Computational Linguistics Symposium
 short_title: ISCLS 2024
+brand_title: ISCLS
 email: iscls@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
   Forum for original and unpublished research on various aspects of
   Computational Linguistics and Digital Humanities related to
   Sanskrit (Classical and Vedic), Prakrit, Pali, Buddhist Hybrid Sanskrit, etc.
-location: Auroville, Puducherry, India
-address: >
-  Auroville, Puducherry, India
-directions: >
-  TBD
-date: February 22, 2024
+location: Auroville, Puducherry
+country: India
+date: February 22-24, 2024
 logo_path: "" # ./assets/images/logo.jpg
-registration:
-  url: ""
-submission:
-  portal: EasyChair Submission Portal
-  url: "https://easychair.org/conferences/?conf=7thiscls"
-  pagelimit: 20
 slideshow:
   - id: 0
-    image_path: ./assets/images/slideshow/0-auroville-beach.webp
+    image_path: ./assets/images/slideshow/0-auroville-beach.jpg
     description: Auroville Beach
     photographer_name: ""
     photographer_link: ""
     active: True
   - id: 1
-    image_path: ./assets/images/slideshow/1-promenade-beach.webp
-    description: Promenade Beach
+    image_path: ./assets/images/slideshow/1-matrimandir-auroville.jpeg
+    description: Matrimandir
     photographer_name: ""
     photographer_link: ""
   - id: 2
-    image_path: ./assets/images/slideshow/2-matrimandir-auroville.jpeg
-    description: Matrimandir
+    image_path: ./assets/images/slideshow/2-promenade-beach.webp
+    description: Promenade Beach
+    photographer_name: ""
+    photographer_link: ""
+  - id: 3
+    image_path: ./assets/images/slideshow/3-puducherry.jpg
+    description: Puducherry (aerial)
+    photographer_name: ""
+    photographer_link: ""
+  - id: 4
+    image_path: ./assets/images/slideshow/4-mahabalipuram.jpg
+    description: Auroville (aerial)
+    photographer_name: ""
+    photographer_link: ""
+  - id: 5
+    image_path: ./assets/images/slideshow/5-auroville.jpeg
+    description: Mahabalipuram Temple
     photographer_name: ""
     photographer_link: ""
 navbar:
@@ -104,14 +111,14 @@ topics:
       - Sanskrit speech recognition and synthesis
       - Social media applications for Sanskrit dissemination
 deadlines:
-  - date: TBD
+  - date: TBA
     timezone: 23:59PM AOE
     text: Submission deadline
     pass_due: False
-  - date: TBD
+  - date: TBA
     text: Notification of acceptance
     pass_due: False
-  - date: TBD
+  - date: TBA
     text: Camera-ready due
     pass_due: False
 news:
@@ -129,70 +136,3 @@ news:
 social_media:
   facebook_link:
   twitter_link:
-program_chair:
-  - name: Arnab Bhattacharya
-    org: IIT Kanpur
-    homepage: https://cse.iitk.ac.in/users/arnabb/
-  - name: Martin Gluckman
-    org: Sanskrit Research Institute
-    homepage: ""
-steering_committees:
-  - name: Amba Kulkarni
-    org: University of Hyderabad
-    homepage: ""
-  - name: Gérard Huet
-    org: INRIA Paris
-    homepage: ""
-  - name: Olivier Hellwig
-    org: University of Zurich
-    homepage: ""
-  - name: Pawan Goyal
-    org: IIT Kharagpur
-    homepage: ""
-technical_program_committees:
-  - name: Stefan Baums
-    org: University of Munich
-    homepage: ""
-  - name: Laxmidhar Behera
-    org: IIT Kanpur
-    homepage: ""
-  - name: Brendan Gillon
-    org: McGill University
-    homepage: ""
-  - name: Malhar Kulkarni
-    org: IIT Bombay
-    homepage: ""
-  - name: Pavan Kumar Satuluri
-    org: Chinmaya Vishwavidyapeeth, Veliyanad
-    homepage: ""
-  - name: Girish Nath Jha
-    org: JNU, Delhi
-    homepage: ""
-  - name: Andrew Ollett
-    org: Harvard University, Cambridge, MA
-    homepage: ""
-  - name: Dhaval Patel
-    org: Ahmedabad
-    homepage: ""
-  - name: Ganesh Ramakrishnan
-    org: IIT Bombay
-    homepage: ""
-  - name: Peter Scharf
-    org: IIIT Hyderabad
-    homepage: ""
-  - name: Srinivasa Varakhedi
-    org: KKSU, Ramtek
-    homepage: ""
-  - name: K Varalakshmi
-    org: Osmania University, Hyderabad
-    homepage: ""
-webmaster:
-  - name: Hrishikesh Terdalkar
-    org: IIT Kanpur
-    homepage: ""
-accommodation:
-  instructions: >
-    TBD
-  hotels:
-    - name: Hotel 1
-      address: Address 1
