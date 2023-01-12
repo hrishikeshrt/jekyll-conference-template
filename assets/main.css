@@ -1,0 +1,137 @@
+.body {
+   font-family:  Helvetica,Arial,sans-serif
+}
+
+.carousel {
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+}
+
+.jumbotron,
+.carousel-item {
+    height: 270px;
+    border-radius: 0;
+}
+
+.jumbotron {
+    background-color: #e0e8ef;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 0px 5px 0px;
+}
+
+
+.jumbotron p {
+    font-size: 1.1em;
+}
+.jumbotron h5 {
+    font-size: 1.6em;
+}
+
+.alert,
+.card,
+.jumbotron,
+.nav, 
+.carousel {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.carousel-caption {
+    bottom: 1rem;
+    opacity: 0.9;
+    height: 1rem;
+}
+
+.carousel-caption p {
+    font-size: 0.2rem;
+}
+
+.card {
+    margin-top: 0.25rem; 
+    margin-bottom: 1.25rem;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-block,
+.conference-text {
+    font-size: 85%;
+}
+
+.card-block {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #eee;
+}
+
+.committee {
+    padding: 10px;
+    border-top: 0.05rem solid #e5e5e5;
+}
+
+.committee p {
+    margin-left: 20px;
+}
+.card-header {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.card-block p {
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.card-block a {
+    color: inherit;
+}
+
+.nav {
+    border-radius: 12px;
+}
+
+.mynav {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+
+.list-group-item {
+    font-size: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    overflow: hidden;
+}
+
+.sponsor {
+    margin-top: 0.75rem; 
+    margin-bottom: 0.75rem;
+}
+
+.sponsor img {
+    max-height: 3rem;
+}
+
+.sponsor h5 {
+    margin-top: 1.5rem; 
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    padding-top: 1.5rem; 
+    border-top: 0.05rem solid #e5e5e5;
+    margin-top: 1.0rem; 
+}
+
+.card-header,
+.nav {
+    background: #333;
+    font-size: 80%;
+}
+
+.navbar-inverse .navbar-nav  > li > a:hover { color: #5393c5 !important; }
+.navbar-inverse .navbar-nav  > .active { color: #5393c5 !important; }

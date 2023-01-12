@@ -1,0 +1,29 @@
+---
+layout: page
+slide_id: 5
+---
+
+<div class="row">
+    <div class="col text-justify conference-text">
+        <div>
+            <h5> REGISTRATION</h5>
+            <p>
+                Co-located with the Second ACM/IEEE Symposium on Edge Computing
+            </p>
+            {% if site.data.conference.registration.url %}
+            <p>
+                <a href="{{site.data.conference.registration.url}}">
+                    {{site.data.conference.registration.url}}
+                </a>
+            </p>
+            {% endif %}
+            <h5> VISA INFO:</h5>
+            <p>
+                If you are an international traveler and needs a visa to enter
+                India, please contact us after your paper is accepted.
+            </p>
+            {% include contact-us.html %}
+        </div>
+    </div>
+
+</div>

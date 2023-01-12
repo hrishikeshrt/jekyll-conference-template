@@ -1,0 +1,50 @@
+---
+layout: page
+slide_id: 0
+---
+
+<!--<div class="alert alert-warning text-center">TBA</div>-->
+
+
+
+<div class="container">
+    <div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-3 mb-xs-2 mb-sm-2">
+        <div class="col text-muted">
+
+
+            <p>The {{site.data.conference.short_title}} is scheduled for {{site.data.conference.date}} and will be held at {{site.data.conference.location}}</p>
+
+            <div class="text-info">Conference Location:</div>
+
+            <p>
+                {{site.data.conference.address}}
+            </p>
+
+            <div class="text-info">Accommodations:</div>
+
+            <p>
+                {{site.data.conference.accommodation.instructions}}
+            </p>
+
+            {% if site.data.conference.accommodation.hotels %}
+            <ul>
+                {% for hotel in site.data.conference.accommodation.hotels %}
+                <li>{{hotel.name}} ({{hotel.address}}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            <div class="text-info">Directions:</div>
+
+            <p>
+                {{site.data.conference.directions}}
+
+            </p>
+
+            <img class="img-fluid" src="./assets/images/direction.png" alt="direction">
+
+
+
+        </div>
+    </div>
+</div>

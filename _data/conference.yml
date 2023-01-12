@@ -1,0 +1,198 @@
+full_title: 7th International Sanskrit Computational Linguistics Symposium
+short_title: ISCLS 2024
+email: iscls@outlook.com
+description: > # this means to ignore newlines until "baseurl:"
+  Forum for original and unpublished research on various aspects of
+  Computational Linguistics and Digital Humanities related to
+  Sanskrit (Classical and Vedic), Prakrit, Pali, Buddhist Hybrid Sanskrit, etc.
+location: Auroville, Puducherry, India
+address: >
+  Auroville, Puducherry, India
+directions: >
+  TBD
+date: February 22, 2024
+logo_path: "" # ./assets/images/logo.jpg
+registration:
+  url: ""
+submission:
+  portal: EasyChair Submission Portal
+  url: "https://easychair.org/conferences/?conf=7thiscls"
+  pagelimit: 20
+slideshow:
+  - id: 0
+    image_path: ./assets/images/slideshow/0-auroville-beach.webp
+    description: Auroville Beach
+    photographer_name: ""
+    photographer_link: ""
+    active: True
+  - id: 1
+    image_path: ./assets/images/slideshow/1-promenade-beach.webp
+    description: Promenade Beach
+    photographer_name: ""
+    photographer_link: ""
+  - id: 2
+    image_path: ./assets/images/slideshow/2-matrimandir-auroville.jpeg
+    description: Matrimandir
+    photographer_name: ""
+    photographer_link: ""
+navbar:
+  - id: 0
+    label: Home
+    path: /
+    visible: True
+  - id: 1
+    label: Organization
+    path: /organization.html
+    visible: True
+  - id: 2
+    label: Call for Papers
+    path: /cfp.html
+    visible: True
+  - id: 3
+    label: Submission
+    path: /submission.html
+    visible: True
+  - id: 4
+    label: Programs
+    path: /program.html
+    visible: True
+  - id: 5
+    label: Venue
+    path: /venue.html
+    visible: True
+  - id: 6
+    label: Registration
+    path: /registration.html
+    visible: True
+topics:
+  - category: "Sanskrit Computational Linguistics, with extensions to related ancient Indian languages (Vedic, Pali, Prakrits)"
+    topics:
+      - Digital lexicons, thesauri and wordnets
+      - Computational phonology and morphology
+      - Syntactic analysis
+      - Prose order normalisation
+      - Parsing
+      - Structural semantics
+      - Machine Translation
+      - Automatic analysis of Sanskrit corpus
+      - Machine Learning approaches to computational processing
+      - Navya Nyāya technical language processing and semantic analysis
+      - Information extraction
+  - category: Shāstric Sanskrit texts and computation
+    topics:
+      - Computer modeling and simulation of Paninian and other traditional grammars
+      - Theories of Śābdabodha and Sanskrit computational processing
+  - category: "Sanskrit digital libraries management"
+    topics:
+      - Tools for acquisition & maintenance of Sanskrit digital corpus
+      - Library crawlers or search tools in Sanskrit corpus
+      - Incorporation of grammatical information in Sanskrit corpus
+      - Automated tools for evaluation of Sanskrit poetry, e.g., meter recognition/verification, alaṃkāra identification, śleṣa analysis
+      - Software tools for phylogenic studies, intertextuality management, establishment of critical editions, and other philological applications
+      - OCR recognition of romanized Sanskrit as well as ancient Indian scripts
+      - Digital cataloguing of manuscripts
+      - Digital font creation, rendering of phonetic features, etc.
+      - Encoding procedures and workflows
+      - Presentation and transformation of TEI data
+      - Named entity recognition
+      - Collaborative annotation and editing
+      - Alignment of text with images (including manuscripts)
+      - User interface design
+  - category: "Misc computer applications relevant to Sanskrit"
+    topics:
+      - Software tools for teaching Sanskrit
+      - Sanskrit speech recognition and synthesis
+      - Social media applications for Sanskrit dissemination
+deadlines:
+  - date: TBD
+    timezone: 23:59PM AOE
+    text: Submission deadline
+    pass_due: False
+  - date: TBD
+    text: Notification of acceptance
+    pass_due: False
+  - date: TBD
+    text: Camera-ready due
+    pass_due: False
+news:
+  # - date: 2017-10-14
+  #   text: Workshop has been successfully held
+  # - date: 2017-05-12
+  #   text: Submission site online
+  - date: 2023-01-12
+    text: Website is online
+# sponsors:
+#   - name: ACM
+#     logo_path: ./assets/images/sponsors/acm-logo.png
+#   - name: IEEE
+#     logo_path: ./assets/images/sponsors/ieee-logo.gif
+social_media:
+  facebook_link:
+  twitter_link:
+program_chair:
+  - name: Arnab Bhattacharya
+    org: IIT Kanpur
+    homepage: https://cse.iitk.ac.in/users/arnabb/
+  - name: Martin Gluckman
+    org: Sanskrit Research Institute
+    homepage: ""
+steering_committees:
+  - name: Amba Kulkarni
+    org: University of Hyderabad
+    homepage: ""
+  - name: Gérard Huet
+    org: INRIA Paris
+    homepage: ""
+  - name: Olivier Hellwig
+    org: University of Zurich
+    homepage: ""
+  - name: Pawan Goyal
+    org: IIT Kharagpur
+    homepage: ""
+technical_program_committees:
+  - name: Stefan Baums
+    org: University of Munich
+    homepage: ""
+  - name: Laxmidhar Behera
+    org: IIT Kanpur
+    homepage: ""
+  - name: Brendan Gillon
+    org: McGill University
+    homepage: ""
+  - name: Malhar Kulkarni
+    org: IIT Bombay
+    homepage: ""
+  - name: Pavan Kumar Satuluri
+    org: Chinmaya Vishwavidyapeeth, Veliyanad
+    homepage: ""
+  - name: Girish Nath Jha
+    org: JNU, Delhi
+    homepage: ""
+  - name: Andrew Ollett
+    org: Harvard University, Cambridge, MA
+    homepage: ""
+  - name: Dhaval Patel
+    org: Ahmedabad
+    homepage: ""
+  - name: Ganesh Ramakrishnan
+    org: IIT Bombay
+    homepage: ""
+  - name: Peter Scharf
+    org: IIIT Hyderabad
+    homepage: ""
+  - name: Srinivasa Varakhedi
+    org: KKSU, Ramtek
+    homepage: ""
+  - name: K Varalakshmi
+    org: Osmania University, Hyderabad
+    homepage: ""
+webmaster:
+  - name: Hrishikesh Terdalkar
+    org: IIT Kanpur
+    homepage: ""
+accommodation:
+  instructions: >
+    TBD
+  hotels:
+    - name: Hotel 1
+      address: Address 1
