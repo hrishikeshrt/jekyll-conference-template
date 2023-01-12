@@ -1,10 +1,10 @@
-.body {
-   font-family:  Helvetica,Arial,sans-serif
+body {
+    font-family: "Fira Sans", Arial, sans-serif !important;
 }
 
 .carousel {
-  -webkit-transform-style: preserve-3d;
-  -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
 }
 
 .jumbotron,
@@ -19,18 +19,22 @@
     margin: 0px 0px 5px 0px;
 }
 
-
 .jumbotron p {
     font-size: 1.1em;
 }
+
+.jumbotron h6 {
+    font-size: 1.1em;
+}
+
 .jumbotron h5 {
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 
 .alert,
 .card,
 .jumbotron,
-.nav, 
+.nav,
 .carousel {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -47,15 +51,15 @@
 }
 
 .card {
-    margin-top: 0.25rem; 
+    margin-top: 0.25rem;
     margin-bottom: 1.25rem;
-    border-radius: 12px;
+    border-radius: 5px;
     overflow: hidden;
 }
 
 .card-block,
 .conference-text {
-    font-size: 85%;
+    font-size: 90%;
 }
 
 .card-block {
@@ -74,6 +78,7 @@
 .committee p {
     margin-left: 20px;
 }
+
 .card-header {
     padding-top: 4px;
     padding-bottom: 4px;
@@ -89,7 +94,7 @@
 }
 
 .nav {
-    border-radius: 12px;
+    border-radius: 5px;
 }
 
 .mynav {
@@ -99,7 +104,7 @@
 
 
 .list-group-item {
-    font-size: 90%;
+    font-size: 95%;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 2px;
@@ -108,7 +113,7 @@
 }
 
 .sponsor {
-    margin-top: 0.75rem; 
+    margin-top: 0.75rem;
     margin-bottom: 0.75rem;
 }
 
@@ -117,21 +122,28 @@
 }
 
 .sponsor h5 {
-    margin-top: 1.5rem; 
+    margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
 footer {
-    padding-top: 1.5rem; 
+    padding-top: 1.5rem;
     border-top: 0.05rem solid #e5e5e5;
-    margin-top: 1.0rem; 
+    margin-top: 1.0rem;
 }
 
-.card-header,
+.card-header {
+    font-size: 90%;
+}
+
 .nav {
-    background: #333;
     font-size: 80%;
 }
 
-.navbar-inverse .navbar-nav  > li > a:hover { color: #5393c5 !important; }
-.navbar-inverse .navbar-nav  > .active { color: #5393c5 !important; }
+.navbar-dark .navbar-nav>li>a:hover {
+    color: #5393c5 !important;
+}
+
+.navbar-dark .navbar-nav>.active {
+    color: #5393c5 !important;
+}
