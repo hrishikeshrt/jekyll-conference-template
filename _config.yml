@@ -24,6 +24,11 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+  - Makefile
+  - README.md
+  - LICENSE
+  - preview/
+  - .gitignore
 
 timezone: India/Kolkata
 google_analytics: ""
