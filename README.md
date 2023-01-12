@@ -4,7 +4,8 @@ An academic conference website template built using Jekyll.
 
 ## Features
 
-- A data file (`_data/conference.yml`) to configure all conference information.
+- Data Files under `_data` to configure all conference information.
+  -`conference.yml`)
     - `full_title`: conference fullname e.g., First xxx conference on xxxx, 2017.
     - `short_title`: conference shortname e.g., xxxx2017
     - `description`: short description about the conference (< 160 char)
@@ -12,37 +13,29 @@ An academic conference website template built using Jekyll.
     - `logo_path`: conference logo
     - `slideshow`: images slideshow
     - `navbar`: navigation menu.
-    - `news`: news section.
     - `sponsors`: sponsor section.
     - `deadlines`: important dates of deadlines, pass-due date will be automatically printed with del line.
     - `social_media`: social media on the navbar. (current support facebook and twitter.)
+  - `news.yml`: news section
+  - `organization.yml`: committees
+    - `programm_chair`: program chair
     - `organizing_committees`: organizing committees
     - `steering_committees`: steering committees
     - `technical_program_committees`: technical program committees
-    - more configurations to come.
+  - `venue.yml`: information about venue
+    - `address`: full address
+    - `accommodation`: accommodation details
+    - `direction`: path to image containing directions
+  - `submission.yml`: submission instructions
+  - `registration.yml`: registration information
+
 - Google Analytics: in `_config.yml`
 - Font-awesome
-- Bootstrap v4.
+- Bootstrap v4.6
 
 ## Preview
 
-### home page
-![home page image](./preview/home.png)
-
-### committees page
-![committees page image](./preview/committee.png)
-
-### Deadlines
-
-### Admin page
-
-### mobile version
-<img src="./preview/mobile.png" alt="mobile version image" style="height: 800px;"/>
-
-## Usage
-
-### with Jekyll Admin.
-
+...
 
 ## TODO
 

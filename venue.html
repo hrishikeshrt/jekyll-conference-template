@@ -1,6 +1,6 @@
 ---
 layout: page
-slide_id: 0
+slide_id: 5
 ---
 
 <!--<div class="alert alert-warning text-center">TBA</div>-->
@@ -12,24 +12,24 @@ slide_id: 0
         <div class="col text-muted">
 
 
-            <p>The {{site.data.conference.short_title}} is scheduled for {{site.data.conference.date}} and will be held at {{site.data.conference.location}}</p>
+            <p>The {{site.data.conference.full_title}} is scheduled for {{site.data.conference.date}} and will be held at {{site.data.conference.location}}, {{site.data.conference.country}}</p>
 
             <div class="text-info">Conference Location:</div>
 
             <p>
-                {{site.data.conference.address}}
+                {{site.data.venue.address}}
             </p>
 
             <div class="text-info">Accommodations:</div>
 
             <p>
-                {{site.data.conference.accommodation.instructions}}
+                {{site.data.venue.accommodation.instructions}}
             </p>
 
-            {% if site.data.conference.accommodation.hotels %}
+            {% if site.data.venue.accommodation.hotels %}
             <ul>
-                {% for hotel in site.data.conference.accommodation.hotels %}
-                <li>{{hotel.name}} ({{hotel.address}}</li>
+                {% for hotel in site.data.venue.accommodation.hotels %}
+                <li><b>{{hotel.name}}</b> ({{hotel.address}})</li>
                 {% endfor %}
             </ul>
             {% endif %}
@@ -37,13 +37,10 @@ slide_id: 0
             <div class="text-info">Directions:</div>
 
             <p>
-                {{site.data.conference.directions}}
-
+                {{site.data.venue.directions}}
             </p>
 
-            <img class="img-fluid" src="./assets/images/direction.png" alt="direction">
-
-
+            <img class="img-fluid" src="{{site.data.venue.direction}}" alt="direction">
 
         </div>
     </div>

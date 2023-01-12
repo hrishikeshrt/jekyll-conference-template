@@ -8,10 +8,10 @@ slide_id: 1
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
         <!--######### Program Chair ##########-->
         <div class="card">
-            <div class="card-header text-white bg-inverse"><strong>Program Chairs</strong></div>
-            {% if site.data.conference.program_chair %}
-            {% for committee in site.data.conference.program_chair %}
-            <div class="card-block bg-faded committee">
+            <div class="card-header text-white bg-dark"><strong>Program Chairs</strong></div>
+            {% if site.data.organization.program_chair %}
+            {% for committee in site.data.organization.program_chair %}
+            <div class="card-block bg-light committee">
                 <p>
                     <a href="{{ committee.homepage }}"><strong>{{ committee.name }}</strong></a>
                 </p>
@@ -19,7 +19,7 @@ slide_id: 1
             </div>
             {% endfor %}
             {% else %}
-            <div class="card-block bg-faded committee">
+            <div class="card-block bg-light committee">
                 <p class="card-title">TBA</p>
                 <p><strong>TBA</strong>
                 </p>
@@ -29,10 +29,10 @@ slide_id: 1
         </div>
         <!--######### Steering ##########-->
         <div class="card">
-            <div class="card-header text-white bg-inverse"><strong>Steering Committee</strong></div>
-            {% if site.data.conference.steering_committees %}
-            {% for committee in site.data.conference.steering_committees %}
-            <div class="card-block bg-faded committee">
+            <div class="card-header text-white bg-dark"><strong>Steering Committee</strong></div>
+            {% if site.data.organization.steering_committees %}
+            {% for committee in site.data.organization.steering_committees %}
+            <div class="card-block bg-light committee">
                 <p>
                     <a href="{{ committee.homepage }}"><strong>{{ committee.name }}</strong></a>
                 </p>
@@ -40,7 +40,7 @@ slide_id: 1
             </div>
             {% endfor %}
             {% else %}
-            <div class="card-block bg-faded committee">
+            <div class="card-block bg-light committee">
                 <p><strong>TBA</strong></p>
                 <p class="card-subtitle text-muted" style="font-size: 90%;">TBA</p>
             </div>
@@ -48,10 +48,10 @@ slide_id: 1
         </div>
         <!--######### webmaster ##########-->
         <div class="card">
-            <div class="card-header text-white bg-inverse"><strong>Webmaster</strong></div>
-            {% if site.data.conference.webmaster %}
-            {% for committee in site.data.conference.webmaster %}
-            <div class="card-block bg-faded committee">
+            <div class="card-header text-white bg-dark"><strong>Webmaster</strong></div>
+            {% if site.data.organization.webmaster %}
+            {% for committee in site.data.organization.webmaster %}
+            <div class="card-block bg-light committee">
                 <p>
                     <a href="{{ committee.homepage }}"><strong>{{ committee.name }}</strong></a>
                 </p>
@@ -59,7 +59,7 @@ slide_id: 1
             </div>
             {% endfor %}
             {% else %}
-            <div class="card-block bg-faded committee">
+            <div class="card-block bg-light committee">
                 <p><strong>TBA</strong></p>
                 <p class="card-subtitle text-muted" style="font-size: 90%;">TBA</p>
             </div>
@@ -71,10 +71,10 @@ slide_id: 1
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
         <!--######### TPC ##########-->
         <div class="card">
-            <div class="card-header text-white bg-inverse"><strong>Technical Program Committee</strong></div>
-            {% if site.data.conference.technical_program_committees %}
-            {% for committee in site.data.conference.technical_program_committees %}
-            <div class="card-block bg-faded committee">
+            <div class="card-header text-white bg-dark"><strong>Technical Program Committee</strong></div>
+            {% if site.data.organization.technical_program_committees %}
+            {% for committee in site.data.organization.technical_program_committees %}
+            <div class="card-block bg-light committee">
                 <p>
                     <a href="{{ committee.homepage }}"><strong>{{ committee.name }}</strong></a>
                 </p>
@@ -82,7 +82,7 @@ slide_id: 1
             </div>
             {% endfor %}
             {% else %}
-            <div class="card-block bg-faded committee">
+            <div class="card-block bg-light committee">
                 <p><strong>TBA</strong></p>
                 <p class="card-subtitle text-muted" style="font-size: 90%;">TBA</p>
             </div>

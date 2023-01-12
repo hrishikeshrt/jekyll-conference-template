@@ -1,17 +1,17 @@
 <div class="card">
-    <div class="card-header text-white bg-inverse">
+    <div class="card-header text-white bg-dark">
         <i class="fa fa-calendar-o mr-3" aria-hidden="true"></i><strong>Important Dates</strong>
     </div>
-    <div class="card-block bg-faded">
+    <div class="card-block bg-light">
         <ul class="list-group list-group-flush">
             {% if site.data.conference.deadlines %}
                 {% for deadline in site.data.conference.deadlines %}
-                    
-                        <li class="list-group-item bg-faded text-muted">
+
+                        <li class="list-group-item bg-light text-muted">
                             {% if deadline.pass_due %}
                             <del>
                             {% endif %}
-                                <p><strong>{{ deadline.text }}:</strong> 
+                                <p><strong>{{ deadline.text }}:</strong>
                                 {% if deadline.timezone %}
                                 {{ deadline.date | date: "%B %e, %Y." }} ({{ deadline.timezone }})
                                 {% else %}
@@ -23,7 +23,7 @@
                         </li>
                 {% endfor %}
             {% else %}
-                <li class="list-group-item bg-faded text-muted">TBA</li>
+                <li class="list-group-item bg-light text-muted">TBA</li>
             {% endif %}
         </ul>
     </div>

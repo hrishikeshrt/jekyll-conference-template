@@ -6,16 +6,16 @@ slide_id: 2
 
 
     <div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-3 mb-xs-2 mb-sm-2">
-        <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6  text-justify conference-text">
+        <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6  conference-text">
             <p class="lead">Call For Papers</p>
             <p>{{site.data.conference.description}}.</p>
 
             <p>
-                You are requested to submit your research paper using the {{site.data.conference.submission.name}}:
-                <a href="{{site.data.conference.submission.url}}">{{site.data.conference.submission.url}}</a>.
+                You are requested to submit your research paper using the {{site.data.submission.name}}:
+                <a href="{{site.data.submission.url}}">{{site.data.submission.url}}</a>.
             </p>
             <p>
-                The submissions should not exceed {{site.data.conference.submission.pagelimit}} pages,
+                The submissions should not exceed {{site.data.submission.pagelimit}} pages,
                 and will be reviewed by the program committee members.
             </p>
 
@@ -29,7 +29,7 @@ slide_id: 2
             {% include contact-us.html %}
 
         </div>
-        <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 conference-text text-justify">
+        <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 conference-text">
             {% if site.data.conference.topics %}
             <p>
                 The areas of interest include, but are not limited to:
