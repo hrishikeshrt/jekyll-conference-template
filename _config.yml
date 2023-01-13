@@ -18,9 +18,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://iscls.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 css: ./assets/main.css
 
+# Plugin settings
+# jekyll-last-modified-at
+show_last_modified: True
+last_modified_format: '%B %d, %Y, %T %Z'
+
 # Build settings
 markdown: kramdown
-# gems:
 exclude:
   - Gemfile
   - Gemfile.lock

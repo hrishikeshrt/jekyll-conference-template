@@ -1,0 +1,38 @@
+- category: "Sanskrit Computational Linguistics, with extensions to related ancient Indian languages (Vedic, Pali, Prakrits)"
+  topics:
+    - Digital lexicons, thesauri and wordnets
+    - Computational phonology and morphology
+    - Syntactic analysis
+    - Prose order normalisation
+    - Parsing
+    - Structural semantics
+    - Machine Translation
+    - Automatic analysis of Sanskrit corpus
+    - Machine Learning approaches to computational processing
+    - Navya Nyāya technical language processing and semantic analysis
+    - Information extraction
+- category: Shāstric Sanskrit texts and computation
+  topics:
+    - Computer modeling and simulation of Paninian and other traditional grammars
+    - Theories of Śābdabodha and Sanskrit computational processing
+- category: "Sanskrit digital libraries management"
+  topics:
+    - Tools for acquisition & maintenance of Sanskrit digital corpus
+    - Library crawlers or search tools in Sanskrit corpus
+    - Incorporation of grammatical information in Sanskrit corpus
+    - Automated tools for evaluation of Sanskrit poetry, e.g., meter recognition/verification, alaṃkāra identification, śleṣa analysis
+    - Software tools for phylogenic studies, intertextuality management, establishment of critical editions, and other philological applications
+    - OCR recognition of romanized Sanskrit as well as ancient Indian scripts
+    - Digital cataloguing of manuscripts
+    - Digital font creation, rendering of phonetic features, etc.
+    - Encoding procedures and workflows
+    - Presentation and transformation of TEI data
+    - Named entity recognition
+    - Collaborative annotation and editing
+    - Alignment of text with images (including manuscripts)
+    - User interface design
+- category: "Misc computer applications relevant to Sanskrit"
+  topics:
+    - Software tools for teaching Sanskrit
+    - Sanskrit speech recognition and synthesis
+    - Social media applications for Sanskrit dissemination

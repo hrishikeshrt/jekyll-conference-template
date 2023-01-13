@@ -31,16 +31,16 @@ slide_id: 2
         </div>
     </div>
     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 conference-text">
-        {% if site.data.conference.topics %}
+        {% if site.data.cfp %}
         <p>
             The areas of interest include, but are not limited to:
         </p>
         <ul>
-            {% for area in site.data.conference.topics %}
-            <li><b>{{area.category}}</b></li>
-            {% if area.topics %}
+            {% for item in site.data.cfp %}
+            <li><b>{{item.category}}</b></li>
+            {% if item.topics %}
             <ul>
-                {% for topic in area.topics %}
+                {% for topic in item.topics %}
                 <li>{{topic}}</li>
                 {% endfor %}
             </ul>

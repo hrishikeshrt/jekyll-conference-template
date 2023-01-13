@@ -2,9 +2,9 @@
 
 An academic conference website template built using Jekyll.
 
-## Features
+## Configuration
 
-- Data Files under `_data` to configure all conference information.
+- Data Files under `_data` to configure all conference related information
   -`conference.yml`)
     - `full_title`: conference fullname e.g., First xxx conference on xxxx, 2017.
     - `short_title`: conference shortname e.g., xxxx2017

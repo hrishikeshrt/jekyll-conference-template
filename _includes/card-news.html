@@ -4,8 +4,8 @@
     </div>
     <div class="card-block bg-light">
         <ul class="list-group list-group-flush">
-            {% if site.data.conference.news %}
-                {% for news_entry in site.data.conference.news %}
+            {% if site.data.news %}
+                {% for news_entry in site.data.news %}
                 <li class="list-group-item bg-light text-muted">{{ news_entry.date | date: "%B %-d, %Y" }} - {{ news_entry.text }}</li>
                 {% endfor %}
             {% else %}

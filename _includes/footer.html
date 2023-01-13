@@ -8,7 +8,9 @@
             </p>
             <div class="pull-left">
                 <i class="small text-muted">
-                    Last updated: {{ page.last_modified_at | date: '%B %d, %Y, %T %Z' }}
+                    {% if site.show_last_modified %}
+                    Last updated: {{ page.last_modified_at | date: site.last_modified_format }}
+                    {% endif %}
                 </i>
             </div>
         </footer>
