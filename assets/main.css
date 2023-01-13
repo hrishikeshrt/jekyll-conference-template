@@ -2,6 +2,10 @@ body {
     font-family: "Fira Sans", Arial, sans-serif !important;
 }
 
+.container {
+    padding: 0;
+}
+
 .carousel {
     -webkit-transform-style: preserve-3d;
     -webkit-backface-visibility: hidden;
@@ -125,11 +129,6 @@ body {
     margin-bottom: 1.5rem;
 }
 
-footer {
-    padding-top: 1.5rem;
-    border-top: 0.05rem solid #e5e5e5;
-    margin-top: 1.0rem;
-}
 
 .card-header {
     font-size: 90%;

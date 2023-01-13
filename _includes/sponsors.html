@@ -6,7 +6,7 @@
             TBA
         </div>
         {% else %}
-        <div class="row">
+        <div class="row mx-1 my-1">
             {% for sponsor in site.data.conference.sponsors %}
                 <img class="img-fluid mr-auto d-inline-block mb-2 mt-2" src="{{ site.baseurl }}{{ sponsor.logo_path }}" alt="{{ sponsor.name }}">
             {% endfor %}

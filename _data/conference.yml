@@ -1,14 +1,22 @@
-full_title: 7th International Sanskrit Computational Linguistics Symposium
-short_title: ISCLS 2024
-brand_title: ISCLS
-email: iscls@outlook.com
+full_name: International Sanskrit Computational Linguistics Symposium
+short_name: ISCLS
 description: > # this means to ignore newlines until "baseurl:"
   Forum for original and unpublished research on various aspects of
   Computational Linguistics and Digital Humanities related to
   Sanskrit (Classical and Vedic), Prakrit, Pali, Buddhist Hybrid Sanskrit, etc.
+
+email: iscls@outlook.com
+
+iteration: 7th
+full_title: 7th International Sanskrit Computational Linguistics Symposium
+short_title: 7th ISCLS 2024
+
+year: 2024
+date: February 22-24, 2024
+
 location: Auroville, Puducherry
 country: India
-date: February 22-24, 2024
+
 logo_path: "" # ./assets/images/logo.jpg
 slideshow:
   - id: 0
@@ -73,7 +81,7 @@ navbar:
     visible: True
 deadlines:
   - date: TBA
-    timezone: 23:59PM AOE
+    # timezone: AOE
     text: Submission deadline
     pass_due: False
   - date: TBA
@@ -90,3 +98,22 @@ deadlines:
 social_media:
   facebook_link:
   twitter_link:
+previous_iterations:
+  - name: 6th ISCLS
+    year: 2019
+    url: https://iscls.github.io/iscls2019/
+  - name: 5th ISCLS
+    year: 2013
+    url: https://sites.google.com/site/5isclc2013/Home
+  - name: 4th ISCLS
+    year: 2010
+    url: http://sanskrit.jnu.ac.in/conf/4iscls/index.jsp
+  - name: 3rd ISCLS
+    year: 2009
+    url: https://sanskrit.inria.fr/Symposium/Symposium3.html
+  - name: 2nd ISCLS
+    year: 2008
+    url: https://sanskritlibrary.org/symposium2/home.html
+  - name: 1st ISCLS
+    year: 2007
+    url: https://sanskrit.inria.fr/Symposium/

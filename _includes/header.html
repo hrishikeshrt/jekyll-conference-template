@@ -6,8 +6,8 @@
 
             <div class="jumbotron">
                 <img class="img-fluid mt-0 mb-4" src="{{ site.data.conference.logo_path }}">
-                <h5 class="text-center mt-0">{{ site.data.conference.date }}</h5>
-                <h6 class="text-center mt-4 mb-4">{{ site.data.conference.full_title }}</h6>
+                <h5 class="text-center mt-4 mb-4">{{ site.data.conference.full_title }}</h5>
+                <h6 class="text-center mt-0">{{ site.data.conference.date }}</h6>
                 <p class="text-center mb-0">
                     {{ site.data.conference.location }},<br>
                     {{ site.data.conference.country }}
@@ -53,13 +53,28 @@
             <!--navbar-->
             <div class="mynav col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 offset-xl-1">
                 <nav class="nav navbar-dark bg-dark navbar-expand-lg">
-                    <a class="navbar-brand ml-4" href="#">{{site.data.conference.brand_title}}</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
-                        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    {% if site.data.conference.previous_iterations %}
+                    <a class="navbar-brand ml-4 dropdown-toggle" href="#" title="Previous Iterations of {{site.data.conference.short_name}}" role="button" data-toggle="dropdown" aria-expanded="false">
+                        {{site.data.conference.short_name}}
+                    </a>
+                    <div class="dropdown-menu">
+                        <span class="dropdown-item"></span>
+                        {% for previous in site.data.conference.previous_iterations %}
+                        <a class="dropdown-item" href="{{previous.url}}" target="_blank" rel="noopener">
+                            {{previous.name}}, {{previous.year}}
+                        </a>
+                        {% endfor %}
+                    </div>
+                    {% else %}
+                    <a class="navbar-brand ml-4" href="#">{{site.data.conference.short_name}}</a>
+                    {% endif %}
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-with-toggle"
+                        aria-controls="navbar-with-toggle" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarToggler">
-                        <ul class="navbar-nav ml-4 my-2 my-lg-0" style="max-height: 100px;">
+                    <div class="collapse navbar-collapse" id="navbar-with-toggle">
+                        <ul class="navbar-nav ml-3 my-2 my-lg-0 navbar-nav-scroll" style="max-height: 200px;">
                             {% for nav in site.data.conference.navbar %}
                             {% if nav.visible %}
                             {% if page.url == nav.path %}
