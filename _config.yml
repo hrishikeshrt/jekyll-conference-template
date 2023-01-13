@@ -19,9 +19,23 @@ url: "https://iscls.github.io" # the base hostname & protocol for your site, e.g
 css: ./assets/main.css
 
 # Plugin settings
-# jekyll-last-modified-at
+## Plugin: jekyll-last-modified-at
 show_last_modified: True
-last_modified_format: '%B %d, %Y, %T %Z'
+last_modified_format: '%B %d, %Y, %T.'
+
+## Plugin: jekyll-minifier
+## https://github.com/digitalsparky/jekyll-minifier
+## NOTE: requires environment variable JEKYLL_ENV to be set to "production"
+jekyll-minifier:
+  remove_comments: true             # Default: true
+  remove_spaces_inside_tags: true   # Default: true
+  remove_multi_spaces: true         # Default: true
+  remove_intertag_spaces: true      # Default: false
+  preserve_line_breaks: true        # Default: false
+  compress_css: true                # Default: true
+  compress_javascript: true         # Default: true
+  compress_json: true               # Default: true
+  compress_js_templates: true       # Default: false
 
 # Build settings
 markdown: kramdown
@@ -39,3 +53,4 @@ google_analytics: ""
 
 plugins:
   - jekyll-last-modified-at
+  - jekyll-minifier
