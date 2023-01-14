@@ -1,8 +1,8 @@
 full_name: International Sanskrit Computational Linguistics Symposium
 short_name: ISCLS
 description: > # this means to ignore newlines until "baseurl:"
-  Forum for original and unpublished research on various aspects of
-  Computational Linguistics and Digital Humanities related to
+  ISCLS is a forum for original and unpublished research on various
+  aspects of Computational Linguistics and Digital Humanities related to
   Sanskrit (Classical and Vedic), Prakrit, Pali, Buddhist Hybrid Sanskrit, etc.
 
 email: iscls@outlook.com
@@ -63,7 +63,7 @@ navbar:
   - id: 1
     label: Organization
     path: /organization.html
-    visible: True
+    visible: False
   - id: 2
     label: Call for Papers
     path: /cfp.html

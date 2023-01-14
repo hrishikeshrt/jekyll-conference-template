@@ -4,7 +4,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>
-    {% if page.title %}{{ page.title | escape }}{% else %}{{ site.data.conference.short_title | escape }}{% endif %}
+    {% if page.full_title %}
+      {{ page.full_title | escape }}
+    {% else %}
+      {% if page.title %}
+        {{ page.title | escape }} &bull;
+      {% endif %}
+      {{ site.data.conference.short_title | escape }}
+    {% endif %}
   </title>
   <meta name="description"
     content="{{ page.excerpt | default: site.data.conference.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">

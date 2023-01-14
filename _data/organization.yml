@@ -6,36 +6,36 @@ program_chair:
     org: Sanskrit Research Institute
     homepage: ""
 steering_committees:
-  - name: Amba Kulkarni
-    org: University of Hyderabad
-    homepage: ""
-  - name: Gérard Huet
-    org: INRIA Paris
-    homepage: ""
-  - name: Olivier Hellwig
-    org: University of Zurich
+  - name: Brendan Gillon
+    org: McGill University
     homepage: ""
   - name: Pawan Goyal
     org: IIT Kharagpur
     homepage: ""
-technical_program_committees:
-  - name: Stefan Baums
-    org: University of Munich
+  - name: Gérard Huet
+    org: INRIA Paris
     homepage: ""
-  - name: Laxmidhar Behera
-    org: IIT Kanpur
+  - name: Girish Nath Jha
+    org: JNU, Delhi
     homepage: ""
-  - name: Brendan Gillon
-    org: McGill University
+  - name: Amba Kulkarni
+    org: University of Hyderabad
     homepage: ""
   - name: Malhar Kulkarni
     org: IIT Bombay
     homepage: ""
+  - name: Peter Scharf
+    org: Sanskrit Library
+    homepage: ""
+technical_program_committees:
+  - name: Arjuna S R
+    org: Manipal Academy of Higher Education
+    homepage: ""
+  - name: Olivier Hellwig
+    org: University of Zurich
+    homepage: ""
   - name: Pavan Kumar Satuluri
     org: Chinmaya Vishwavidyapeeth, Veliyanad
-    homepage: ""
-  - name: Girish Nath Jha
-    org: JNU, Delhi
     homepage: ""
   - name: Andrew Ollett
     org: Harvard University, Cambridge, MA
@@ -45,12 +45,6 @@ technical_program_committees:
     homepage: ""
   - name: Ganesh Ramakrishnan
     org: IIT Bombay
-    homepage: ""
-  - name: Peter Scharf
-    org: IIIT Hyderabad
-    homepage: ""
-  - name: Srinivasa Varakhedi
-    org: KKSU, Ramtek
     homepage: ""
   - name: K Varalakshmi
     org: Osmania University, Hyderabad
