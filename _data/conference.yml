@@ -26,7 +26,7 @@ slideshow:
     photographer_link: ""
     active: True
   - id: 1
-    image_path: ./assets/images/slideshow/1-matrimandir-auroville.jpeg
+    image_path: ./assets/images/slideshow/1-matrimandir.jpeg
     description: Matrimandir
     photographer_name: ""
     photographer_link: ""
@@ -36,18 +36,23 @@ slideshow:
     photographer_name: ""
     photographer_link: ""
   - id: 3
-    image_path: ./assets/images/slideshow/3-puducherry.jpg
-    description: Puducherry (aerial)
+    image_path: ./assets/images/slideshow/3-whitetown.jpg
+    description: White Town
     photographer_name: ""
     photographer_link: ""
   - id: 4
-    image_path: ./assets/images/slideshow/4-mahabalipuram.jpg
-    description: Auroville (aerial)
+    image_path: ./assets/images/slideshow/4-manakula-vinayagar-temple.jpg
+    description: Manakula Vinayagar Temple
     photographer_name: ""
     photographer_link: ""
   - id: 5
-    image_path: ./assets/images/slideshow/5-auroville.jpeg
-    description: Mahabalipuram Temple
+    image_path: ./assets/images/slideshow/5-auroville.png
+    description: Auroville
+    photographer_name: ""
+    photographer_link: ""
+  - id: 6
+    image_path: ./assets/images/slideshow/6-mahabalipuram.jpg
+    description: Temple, Mahabalipuram
     photographer_name: ""
     photographer_link: ""
 navbar:
