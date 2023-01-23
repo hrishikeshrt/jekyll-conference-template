@@ -9,7 +9,7 @@ slide_id: 3
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2 text-justify conference-text">
 
 
-        <h6 class="text-info">Submission Instructions</h6>
+        <h6 class="text-info">Instructions</h6>
 
         <p>
             Submitted papers must be neither previously published nor under
@@ -27,12 +27,35 @@ slide_id: 3
 
         <p>
             Papers should use the <strong class="text-danger">{{site.data.submission.template.description}}</strong>, available at
-            <a href="{{site.data.submission.template.url}}">
+            <a href="{{site.data.submission.template.url}}" target="_blank">
                 <i class="fa fa-external-link fa-fw" aria-hidden="true"></i> {{site.data.submission.template.name}}
             </a>.
+            {% if site.data.submission.template.overleaf %}The template is also available at
+            <a href="{{site.data.submission.template.overleaf}}" target="_blank">
+                <i class="fa fa-external-link fa-fw" aria-hidden="true"></i> Overleaf
+            </a>
+            {% endif %}
         </p>
 
+        {% if site.data.submission.sources %}
         <p>
+            <h6 class="text-info">Source Files</h6>
+            <ul>
+                {% for source in site.data.submission.sources %}
+                <li>{{source.name}}: <a href="{{source.url}}">{{source.text}}</a></li>
+                {% endfor %}
+            </ul>
+        </p>
+        {% endif %}
+
+        {% if site.data.submission.extra %}
+        <p>
+            {{site.data.submission.extra}}
+        </p>
+        {% endif %}
+
+        <p>
+            <h6 class="text-info">Submission</h6>
             To submit your paper, please follow below link to the submission
             site:
         </p>

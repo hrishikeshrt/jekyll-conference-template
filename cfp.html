@@ -8,7 +8,7 @@ slide_id: 2
     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 text-justify">
         <div class="conference-text">
             <p class="lead">Call For Papers</p>
-            <p>{{site.data.conference.description}}.</p>
+            <p>{{site.data.cfp.description}}.</p>
 
             <p>
                 You are requested to submit your research paper using the {{site.data.submission.name}}:
@@ -16,11 +16,11 @@ slide_id: 2
             </p>
             <p>
                 The submissions should not exceed {{site.data.submission.pagelimit}} pages,
-                and will be reviewed by the program committee members.
+                and should include the title, abstract, and names and affiliations of all authors.
             </p>
 
             <p>
-                To prepare your submission, please use the latex source files listed on the website,
+                To prepare your submission, please use the LaTeX source files listed on the website,
                 and follow the instructions provided there.
             </p>
         </div>
@@ -37,11 +37,11 @@ slide_id: 2
             The areas of interest include, but are not limited to:
         </p>
         <ul>
-            {% for item in site.data.cfp %}
-            <li><b>{{item.category}}</b></li>
-            {% if item.topics %}
+            {% for area in site.data.cfp.areas %}
+            <li><b>{{area.category}}</b></li>
+            {% if area.topics %}
             <ul>
-                {% for topic in item.topics %}
+                {% for topic in area.topics %}
                 <li>{{topic}}</li>
                 {% endfor %}
             </ul>
