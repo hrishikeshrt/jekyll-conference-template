@@ -1,55 +1,60 @@
 program_chair:
   - name: Arnab Bhattacharya
     org: IIT Kanpur
+    post: Program Committee Chair
     homepage: https://cse.iitk.ac.in/users/arnabb/
   - name: Martin Gluckman
     org: Sanskrit Research Institute
+    post: Organising Chair
     homepage: ""
 steering_committees:
+  # - name: Arnab Bhattacharya
+  #   org: IIT Kanpur, Kanpur, India
+  #   homepage: https://cse.iitk.ac.in/users/arnabb/
   - name: Brendan Gillon
-    org: McGill University
-    homepage: ""
+    org: McGill University, Montreal, Canada
+    homepage: https://www.mcgill.ca/linguistics/brendan-gillon
   - name: Pawan Goyal
-    org: IIT Kharagpur
-    homepage: ""
+    org: IIT Kharagpur, Kharagpur, India
+    homepage: https://cse.iitkgp.ac.in/~pawang/
   - name: Gérard Huet
-    org: INRIA Paris
-    homepage: ""
+    org: INRIA, Rocquencourt, France
+    homepage: http://pauillac.inria.fr/~huet/
   - name: Girish Nath Jha
-    org: JNU, Delhi
-    homepage: ""
+    org: JNU, Delhi, India
+    homepage: https://jnu.ac.in/content/girishjha
   - name: Amba Kulkarni
-    org: University of Hyderabad
-    homepage: ""
+    org: University of Hyderabad, Hyderabad, India
+    homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
   - name: Malhar Kulkarni
-    org: IIT Bombay
-    homepage: ""
+    org: IIT Bombay, Mumbai, India
+    homepage: https://www.hss.iitb.ac.in/en/faculty-profile/malhar-kulkarni
   - name: Peter Scharf
-    org: Sanskrit Library
-    homepage: ""
+    org: Sanskrit Library, USA
+    homepage: https://www.sanskritlibrary.org/cv/profile.html
 technical_program_committees:
-  - name: Arjuna S R
-    org: Manipal Academy of Higher Education
-    homepage: ""
-  - name: Olivier Hellwig
-    org: University of Zurich
-    homepage: ""
-  - name: Pavan Kumar Satuluri
-    org: Chinmaya Vishwavidyapeeth, Veliyanad
-    homepage: ""
-  - name: Andrew Ollett
-    org: Harvard University, Cambridge, MA
-    homepage: ""
-  - name: Dhaval Patel
-    org: Ahmedabad
-    homepage: ""
-  - name: Ganesh Ramakrishnan
-    org: IIT Bombay
-    homepage: ""
-  - name: K Varalakshmi
-    org: Osmania University, Hyderabad
-    homepage: ""
+  # - name: Arjuna S R
+  #   org: Manipal Academy of Higher Education
+  #   homepage: ""
+  # - name: Olivier Hellwig
+  #   org: University of Zurich
+  #   homepage: ""
+  # - name: Pavan Kumar Satuluri
+  #   org: Chinmaya Vishwavidyapeeth, Veliyanad
+  #   homepage: ""
+  # - name: Andrew Ollett
+  #   org: Harvard University, Cambridge, MA
+  #   homepage: ""
+  # - name: Dhaval Patel
+  #   org: Ahmedabad
+  #   homepage: ""
+  # - name: Ganesh Ramakrishnan
+  #   org: IIT Bombay
+  #   homepage: ""
+  # - name: K Varalakshmi
+  #   org: Osmania University, Hyderabad
+  #   homepage: ""
 webmaster:
   - name: Hrishikesh Terdalkar
-    org: IIT Kanpur
+    org: IIT Kanpur, Kanpur, India
     homepage: "https://hrishikeshrt.github.io"
