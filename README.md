@@ -2,6 +2,10 @@
 
 An academic conference website template built using Jekyll.
 
+## Install
+
+Check installation instructions at [INSTALL.md](INSTALL.md).
+
 ## Configuration
 
 - Data Files under `_data` to configure all conference related information
@@ -36,16 +40,6 @@ An academic conference website template built using Jekyll.
 ## Preview
 
 ...
-
-## TODO
-
- - [ ] add https://www.timeanddate.com/ link to deadlines.
- - [ ] seperate some layouts/includes into a theme
- - [ ] make the project extensible with different themes.
- - [ ] Jekyll-admin integration
- - [ ] use Jekyll posts to update news.
- - [ ] clean Jekyll pages, put html code into layout/includes, pure markdown in pages.
- - [ ] Makefile integration for docker run, ssh upload, rsync
 
 
 ## Credits
