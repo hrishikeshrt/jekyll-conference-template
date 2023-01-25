@@ -8,9 +8,9 @@ program_chair:
     post: Organising Chair
     homepage: ""
 steering_committees:
-  # - name: Arnab Bhattacharya
-  #   org: IIT Kanpur, Kanpur, India
-  #   homepage: https://cse.iitk.ac.in/users/arnabb/
+  - name: Arnab Bhattacharya
+    org: IIT Kanpur, Kanpur, India
+    homepage: https://cse.iitk.ac.in/users/arnabb/
   - name: Brendan Gillon
     org: McGill University, Montreal, Canada
     homepage: https://www.mcgill.ca/linguistics/brendan-gillon
@@ -20,9 +20,9 @@ steering_committees:
   - name: Gérard Huet
     org: INRIA, Rocquencourt, France
     homepage: http://pauillac.inria.fr/~huet/
-  - name: Girish Nath Jha
-    org: JNU, Delhi, India
-    homepage: https://jnu.ac.in/content/girishjha
+  # - name: Girish Nath Jha
+  #   org: JNU, Delhi, India
+  #   homepage: https://jnu.ac.in/content/girishjha
   - name: Amba Kulkarni
     org: University of Hyderabad, Hyderabad, India
     homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
