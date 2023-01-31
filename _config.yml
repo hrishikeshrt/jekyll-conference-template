@@ -18,10 +18,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://iscls.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 css: ./assets/main.css
 
+show_last_updated: True
+last_updated_format: '%B %d, %Y, %T.'
+
 # Plugin settings
-## Plugin: jekyll-last-modified-at
-show_last_modified: True
-last_modified_format: '%B %d, %Y, %T.'
 
 ## Plugin: jekyll-minifier
 ## https://github.com/digitalsparky/jekyll-minifier
@@ -54,5 +54,4 @@ timezone: India/Kolkata
 google_analytics: ""
 
 plugins:
-  - jekyll-last-modified-at
   - jekyll-minifier

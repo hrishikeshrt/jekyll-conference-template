@@ -5,8 +5,8 @@
                 &copy; {{site.data.conference.short_name}}.
             </div>
             <div class="text-muted font-italic font-weight-light small pull-left pb-3">
-                {% if site.show_last_modified %}
-                Last updated: {{ page.last_modified_at | date: site.last_modified_format }}
+                {% if site.show_last_updated %}
+                Last updated: {{ site.time | date: site.last_updated_format }}
                 {% endif %}
             </div>
         </footer>
