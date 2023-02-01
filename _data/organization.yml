@@ -18,7 +18,8 @@ steering_committees:
     org: IIT Kharagpur, Kharagpur, India
     homepage: https://cse.iitkgp.ac.in/~pawang/
   - name: Gérard Huet
-    org: INRIA, Rocquencourt, France
+    org: Institut de France (Académie des Sciences), France
+    # org: INRIA, Rocquencourt, France
     homepage: http://pauillac.inria.fr/~huet/
   # - name: Girish Nath Jha
   #   org: JNU, Delhi, India
@@ -33,9 +34,21 @@ steering_committees:
     org: Sanskrit Library, USA
     homepage: https://www.sanskritlibrary.org/cv/profile.html
 technical_program_committees:
-  # - name: Arjuna S R
-  #   org: Manipal Academy of Higher Education
-  #   homepage: ""
+  - name: Amba Kulkarni
+    org: University of Hyderabad, Hyderabad, India
+    homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Arjuna S R
+    org: Manipal Academy of Higher Education, Bengaluru, India
+    homepage: "https://manipal.edu/mu/campuses/mahe-bengaluru/academics/institution-list/dlhs/faculty-members/arjuna-sr.html"
+  - name: Arnab Bhattacharya
+    org: IIT Kanpur, Kanpur, India
+    homepage: https://cse.iitk.ac.in/users/arnabb/
+  - name: Gérard Huet
+    org: Institut de France (Académie des Sciences), Paris, France
+    homepage: http://pauillac.inria.fr/~huet/
+  - name: Pawan Goyal
+    org: IIT Kharagpur, Kharagpur, India
+    homepage: https://cse.iitkgp.ac.in/~pawang/
   # - name: Olivier Hellwig
   #   org: University of Zurich
   #   homepage: ""
