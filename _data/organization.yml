@@ -1,39 +1,48 @@
-program_chair:
+- title: Program Committee Chair
+  column: 1
+  members:
   - name: Arnab Bhattacharya
     org: IIT Kanpur
-    post: Program Committee Chair
+    post: ""
     homepage: https://cse.iitk.ac.in/users/arnabb/
+- title: Organising Chair
+  column: 1
+  members:
   - name: Martin Gluckman
     org: Sanskrit Research Institute
-    post: Organising Chair
+    post: ""
     homepage: ""
-steering_committees:
+- title: Steering Committee
+  column: 1
+  members:
+  - name: Amba Kulkarni
+    org: University of Hyderabad, Hyderabad, India
+    homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
   - name: Arnab Bhattacharya
     org: IIT Kanpur, Kanpur, India
     homepage: https://cse.iitk.ac.in/users/arnabb/
   - name: Brendan Gillon
     org: McGill University, Montreal, Canada
     homepage: https://www.mcgill.ca/linguistics/brendan-gillon
-  - name: Pawan Goyal
-    org: IIT Kharagpur, Kharagpur, India
-    homepage: https://cse.iitkgp.ac.in/~pawang/
   - name: Gérard Huet
     org: Institut de France (Académie des Sciences), France
     # org: INRIA, Rocquencourt, France
     homepage: http://pauillac.inria.fr/~huet/
-  # - name: Girish Nath Jha
-  #   org: JNU, Delhi, India
-  #   homepage: https://jnu.ac.in/content/girishjha
-  - name: Amba Kulkarni
-    org: University of Hyderabad, Hyderabad, India
-    homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
   - name: Malhar Kulkarni
     org: IIT Bombay, Mumbai, India
     homepage: https://www.hss.iitb.ac.in/en/faculty-profile/malhar-kulkarni
+  - name: Pawan Goyal
+    org: IIT Kharagpur, Kharagpur, India
+    homepage: https://cse.iitkgp.ac.in/~pawang/
+  # - name: Girish Nath Jha
+  #   org: JNU, Delhi, India
+  #   homepage: https://jnu.ac.in/content/girishjha
   - name: Peter Scharf
     org: Sanskrit Library, USA
     homepage: https://www.sanskritlibrary.org/cv/profile.html
-technical_program_committees:
+- title: Technical Program Committe
+  column: 2
+  members:
   - name: Amba Kulkarni
     org: University of Hyderabad, Hyderabad, India
     homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
@@ -44,7 +53,7 @@ technical_program_committees:
     org: IIT Kanpur, Kanpur, India
     homepage: https://cse.iitk.ac.in/users/arnabb/
   - name: Gérard Huet
-    org: Institut de France (Académie des Sciences), Paris, France
+    org: Institut de France (Académie des Sciences), France
     homepage: http://pauillac.inria.fr/~huet/
   - name: Pawan Goyal
     org: IIT Kharagpur, Kharagpur, India
@@ -67,7 +76,9 @@ technical_program_committees:
   # - name: K Varalakshmi
   #   org: Osmania University, Hyderabad
   #   homepage: ""
-webmaster:
+- title: Webmaster
+  column: 1
+  members:
   - name: Hrishikesh Terdalkar
     org: IIT Kanpur, Kanpur, India
     homepage: "https://hrishikeshrt.github.io"
