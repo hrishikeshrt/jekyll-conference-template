@@ -28,15 +28,15 @@
     org: Institut de France (Académie des Sciences), France
     # org: INRIA, Rocquencourt, France
     homepage: http://pauillac.inria.fr/~huet/
+  # - name: Girish Nath Jha
+  #   org: JNU, Delhi, India
+  #   homepage: https://jnu.ac.in/content/girishjha
   - name: Malhar Kulkarni
     org: IIT Bombay, Mumbai, India
     homepage: https://www.hss.iitb.ac.in/en/faculty-profile/malhar-kulkarni
   - name: Pawan Goyal
     org: IIT Kharagpur, Kharagpur, India
     homepage: https://cse.iitkgp.ac.in/~pawang/
-  # - name: Girish Nath Jha
-  #   org: JNU, Delhi, India
-  #   homepage: https://jnu.ac.in/content/girishjha
   - name: Peter Scharf
     org: Sanskrit Library, USA
     homepage: https://www.sanskritlibrary.org/cv/profile.html
@@ -46,33 +46,42 @@
   - name: Amba Kulkarni
     org: University of Hyderabad, Hyderabad, India
     homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
+  # - name: Andrew Ollett
+  #   org: Harvard University, Cambridge, MA
+  #   homepage: ""
   - name: Arjuna S R
     org: Manipal Academy of Higher Education, Bengaluru, India
     homepage: "https://manipal.edu/mu/campuses/mahe-bengaluru/academics/institution-list/dlhs/faculty-members/arjuna-sr.html"
   - name: Arnab Bhattacharya
     org: IIT Kanpur, Kanpur, India
     homepage: https://cse.iitk.ac.in/users/arnabb/
+  - name: Brendan Gillon
+    org: McGill University, Montreal, Canada
+    homepage: https://www.mcgill.ca/linguistics/brendan-gillon
+  - name: Ganesh Ramakrishnan
+    org: IIT Bombay, Mumbai, India
+    homepage: https://www.cse.iitb.ac.in/~ganesh/
   - name: Gérard Huet
     org: Institut de France (Académie des Sciences), France
     homepage: http://pauillac.inria.fr/~huet/
-  - name: Pawan Goyal
-    org: IIT Kharagpur, Kharagpur, India
-    homepage: https://cse.iitkgp.ac.in/~pawang/
   # - name: Olivier Hellwig
   #   org: University of Zurich
   #   homepage: ""
   # - name: Pavan Kumar Satuluri
   #   org: Chinmaya Vishwavidyapeeth, Veliyanad
   #   homepage: ""
-  # - name: Andrew Ollett
-  #   org: Harvard University, Cambridge, MA
-  #   homepage: ""
-  # - name: Dhaval Patel
-  #   org: Ahmedabad
-  #   homepage: ""
-  # - name: Ganesh Ramakrishnan
-  #   org: IIT Bombay
-  #   homepage: ""
+  - name: Pawan Goyal
+    homepage: https://cse.iitkgp.ac.in/~pawang/
+    org: IIT Kharagpur, Kharagpur, India
+  - name: Peter Scharf
+    org: Sanskrit Library, USA
+    homepage: https://www.sanskritlibrary.org/cv/profile.html
+  - name: Shivani V
+    org: Karnataka Sanskrit University, Karnataka, India
+    homepage: ""
+  - name: Tanuja P Ajotikar
+    org: The Sanskrit Library, USA
+    homepage: https://www.sanskritlibrary.org/cv/profiletanu.html
   # - name: K Varalakshmi
   #   org: Osmania University, Hyderabad
   #   homepage: ""
