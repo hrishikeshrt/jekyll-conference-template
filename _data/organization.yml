@@ -25,8 +25,8 @@
     org: McGill University, Montreal, Canada
     homepage: https://www.mcgill.ca/linguistics/brendan-gillon
   - name: Gérard Huet
-    org: Institut de France (Académie des Sciences), France
-    # org: INRIA, Rocquencourt, France
+    # org: Institut de France (Académie des Sciences), France
+    org: INRIA, Paris, France
     homepage: http://pauillac.inria.fr/~huet/
   # - name: Girish Nath Jha
   #   org: JNU, Delhi, India
@@ -62,14 +62,14 @@
     org: IIT Bombay, Mumbai, India
     homepage: https://www.cse.iitb.ac.in/~ganesh/
   - name: Gérard Huet
-    org: Institut de France (Académie des Sciences), France
+    org: INRIA, Paris, France
     homepage: http://pauillac.inria.fr/~huet/
   # - name: Olivier Hellwig
   #   org: University of Zurich
   #   homepage: ""
-  # - name: Pavan Kumar Satuluri
-  #   org: Chinmaya Vishwavidyapeeth, Veliyanad
-  #   homepage: ""
+  - name: Pavan Kumar Satuluri
+    org: Chinmaya Vishwavidyapeeth, Veliyanad, India
+    homepage: https://www.cvv.ac.in/faculties/dr-pavankumar-satuluri
   - name: Pawan Goyal
     homepage: https://cse.iitkgp.ac.in/~pawang/
     org: IIT Kharagpur, Kharagpur, India
