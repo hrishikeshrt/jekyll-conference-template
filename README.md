@@ -2,9 +2,13 @@
 
 An academic conference website template built using Jekyll.
 
+## Deployment
+
+The template is tuned to work with GitHub pages workflow.
+
 ## Install
 
-Check installation instructions at [INSTALL.md](INSTALL.md).
+For building locally, check installation instructions at [INSTALL.md](INSTALL.md).
 
 ## Configuration
 
@@ -36,10 +40,6 @@ Check installation instructions at [INSTALL.md](INSTALL.md).
 - Google Analytics: in `_config.yml`
 - Font-awesome
 - Bootstrap v4.6
-
-## Preview
-
-...
 
 
 ## Credits

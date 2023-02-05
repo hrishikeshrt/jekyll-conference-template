@@ -42,6 +42,8 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+  - Gemfile.local
+  - Gemfile.github
   - Makefile
   - INSTALL.md
   - README.md

@@ -1,6 +1,8 @@
 # Install
 
-The template is powered by Jekyll.
+The template is powered by Jekyll and tuned to work with GitHub workflows.
+
+For local deployment, use `Gemfile.local`
 
 ## Requirements
 
@@ -33,4 +35,4 @@ The template is powered by Jekyll.
 * Publish (Currently, copy the built directory to install location)
   - Edit `Makefile` to set your install path
   - `make publish`
-  - **NOTE**: You will still need to manually commit the code for the website.
+  - **NOTE**: You will need to manually commit the code for the website.
