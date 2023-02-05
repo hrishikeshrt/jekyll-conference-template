@@ -45,11 +45,14 @@ exclude:
   - Gemfile.local
   - Gemfile.github
   - Makefile
-  - INSTALL.md
   - README.md
+  - INSTALL.md
   - TODO.md
+  - CREDITS.md
   - LICENSE
   - preview/
+  - workflows/
+  - .github/
   - .gitignore
 
 timezone: India/Kolkata

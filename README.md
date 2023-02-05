@@ -2,14 +2,6 @@
 
 An academic conference website template built using Jekyll.
 
-## Deployment
-
-The template is tuned to work with GitHub pages workflow.
-
-## Install
-
-For building locally, check installation instructions at [INSTALL.md](INSTALL.md).
-
 ## Configuration
 
 - Data Files under `_data` to configure all conference related information
@@ -38,10 +30,31 @@ For building locally, check installation instructions at [INSTALL.md](INSTALL.md
   - `registration.yml`: registration information
 
 - Google Analytics: in `_config.yml`
-- Font-awesome
-- Bootstrap v4.6
 
+## Deployment
 
-## Credits
+### Manual
 
-* The template is result of modification of [https://github.com/yishanhe/jekyll-conference-template](https://github.com/yishanhe/jekyll-conference-template)
+* Setup Ruby, RVM, Jeykyll, Bundler.
+  - Check installation instructions at [INSTALL.md](INSTALL.md).
+* Remove `.github/workflows/`
+* Change target of the symbolic `Gemfile` to `Gemfile.github` 
+  ```
+  rm Gemfile 
+  ln -s Gemfile.github Gemfile
+  ```
+* Adjust release path in `Makefile`
+* Test locally, `make serve` 
+* Build and copy to publish location, `make publish`
+* Commit changes to the publish location
+
+### GitHub Pages
+
+* Ensure that the repository is public and GitHub Pages are enabled and set to use GitHub Actions.
+* Create `.github/workflows`
+* Copy `workflows/release.yml` to `.github/workflows/release.yml` 
+* Change target of the symbolic `Gemfile` to `Gemfile.github` 
+  ```
+  rm Gemfile 
+  ln -s Gemfile.github Gemfile
+  ```
