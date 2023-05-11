@@ -1,1 +1,1 @@
-Gemfile.local
+Gemfile.github
