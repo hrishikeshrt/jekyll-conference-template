@@ -38,7 +38,7 @@
     org: IIT Kharagpur, Kharagpur, India
     homepage: https://cse.iitkgp.ac.in/~pawang/
   - name: Peter Scharf
-    org: Sanskrit Library, USA
+    org: The Sanskrit Library, USA
     homepage: https://www.sanskritlibrary.org/cv/profile.html
 - title: Technical Program Committe
   column: 2
@@ -46,6 +46,9 @@
   - name: Amba Kulkarni
     org: University of Hyderabad, Hyderabad, India
     homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Amrith Krishna
+    org: ""
+    homepage: ""
   # - name: Andrew Ollett
   #   org: Harvard University, Cambridge, MA
   #   homepage: ""
@@ -58,24 +61,36 @@
   - name: Brendan Gillon
     org: McGill University, Montreal, Canada
     homepage: https://www.mcgill.ca/linguistics/brendan-gillon
+  - name: Chaitali Dangarikar
+    org: IIT Kanpur, Kanpur, India
+    homepage: ""
   - name: Ganesh Ramakrishnan
     org: IIT Bombay, Mumbai, India
     homepage: https://www.cse.iitb.ac.in/~ganesh/
   - name: Gérard Huet
     org: INRIA, Paris, France
     homepage: http://pauillac.inria.fr/~huet/
-  # - name: Olivier Hellwig
-  #   org: University of Zurich
-  #   homepage: ""
-  - name: Pavan Kumar Satuluri
-    org: Chinmaya Vishwavidyapeeth, Veliyanad, India
-    homepage: https://www.cvv.ac.in/faculties/dr-pavankumar-satuluri
+  - name: Malhar Kulkarni
+    org: IIT Bombay, Mumbai, India
+    homepage: https://www.hss.iitb.ac.in/en/faculty-profile/malhar-kulkarni
+  - name: Oliver Hellwig
+    org: University of Zurich, Zurich, Switzerland
+    homepage: https://www.comparativelinguistics.uzh.ch/en/staff/hellwig.html
+  - name: Patrick McAllister
+    org: Austrian Academy of Sciences, Austria
+    homepage: https://www.oeaw.ac.at/en/ikga/team/research/mcallister-patrick/
+  - name: Pavankumar Satuluri
+    org: Indian Institute of Technology Roorkee, Roorkee, India
+    homepage: https://iitr.ac.in/~HS/Pavankumar_Satuluri
   - name: Pawan Goyal
     homepage: https://cse.iitkgp.ac.in/~pawang/
     org: IIT Kharagpur, Kharagpur, India
   - name: Peter Scharf
-    org: Sanskrit Library, USA
+    org: The Sanskrit Library, USA
     homepage: https://www.sanskritlibrary.org/cv/profile.html
+  - name: Sebastian	Nehrdich
+    org: University of Hamburg, Hamburg, Germany
+    homepage: https://www.kc-tbts.uni-hamburg.de/people/nehrdich.html
   - name: Shivani V
     org: Karnataka Sanskrit University, Karnataka, India
     homepage: ""
@@ -90,4 +105,4 @@
   members:
   - name: Hrishikesh Terdalkar
     org: IIT Kanpur, Kanpur, India
-    homepage: "https://hrishikeshrt.github.io"
+    homepage: https://hrishikeshrt.github.io
